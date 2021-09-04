@@ -35,7 +35,7 @@ const TabNavigator = () => {
                 options={{
                     tabBarIcon: ({ color }) => (
                         <Entypo name='home' size={32} color={color} />
-                    )
+                    ),
                 }}
             />
             <Tab.Screen
@@ -44,7 +44,8 @@ const TabNavigator = () => {
                 options={{
                     tabBarIcon: ({ color }) => (
                         <Entypo name='heart' size={32} color={color} />
-                    )
+                    ),
+                    tabBarBadge:10,
                 }}
             />
             <Tab.Screen
